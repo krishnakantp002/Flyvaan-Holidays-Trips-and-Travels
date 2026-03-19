@@ -25,8 +25,8 @@ const Footer = () => {
                 className="h-24 w-64 md:mr-12 object-contain"
               />
               <div className="flex flex-col mt-8 text-center md:text-left">
-                <p className="mb-2">Address: Kaurihar Chawk, Raxaul , 845305</p>
-                <p className="mb-2">Phone: +91 8102484278</p>
+                <p className="mb-2">Address: Plot no 2 near Bharat city, Tila more, Ghaziabad, Uttar Pradesh-201102</p>
+                <p className="mb-2">Phone: +91 9572752525</p>
                 <p className="mb-2">Email: flyvaanholidays@gmail.com</p>
                 <p>&copy; flyvaan holidays. all rights are reserved</p>
               </div>
