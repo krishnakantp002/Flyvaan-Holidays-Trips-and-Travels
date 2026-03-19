@@ -26,11 +26,7 @@ mongoose
 // Middleware for CORS and JSON parsing
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://flyvaan-holidays-trips-and-travels-olv6.onrender.com",
-      process.env.CLIENT_URL
-    ].filter(Boolean),
+    origin: true,
     credentials: true,
   })
 );

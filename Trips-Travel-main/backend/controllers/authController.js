@@ -69,7 +69,9 @@ const loginUser = async (req, res) => {
     // Set the token as a cookie in the response
     res.cookie("accessToken", token, {
       httpOnly: true,
-      expires: token.expiresIn,
+      expires: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000), // 5 days
+      secure: true,
+      sameSite: "none",
     });
 
     res
